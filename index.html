@@ -3,75 +3,81 @@
     <head>
         <title>Youth for Abolition</title>
         <style>
-            .flex-container {
-                display: flex;
-                flex-wrap: nowrap;
-                background-color: white;
+            /* navigation bar */
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: skyblue;
             }
 
-            flex-container .box {
-                background-color: skyblue;
-                width: 33.33%;
-                border-radius: 25px;
-                text-align: center;
-                font-family: Arial, Helvetica, sans-serif;
+            li {
+                float: left;
             }
+
+            li a {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: slategray;
+            }
+
+            .active {
+                background-color: red;
+            }
+
+            .div1 {
+                width: 100%;
+                background-color: darkcyan;
+            }
+
 
             h1{text-align: center;}
             h1{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
             h1{font-size: 65px}
 
-            h2{text-align: center;}
+            h2{text-align: center}
             h2{font-family:Verdana, Geneva, Tahoma, sans-serif}
             h2{font-size: 15px}
 
-            /* p{text-align: center;}
+            h3{text-align: center}
+            h3{font-family: Arial, Helvetica, sans-serif;}
+            h3{font-size: 18px}
+
+            p{text-align: center}
             p{font-family:Arial, Helvetica, sans-serif}
-            p{font-size: 15px} */
+            p{font-size: 15px}
         </style>
     </head>
 
     <body>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#learn" class="active">Learn</a></li>
+            <li><a href="#get-involved" class="active">Get Involved</a></li>
+            <li><a href="resources" class="active">Resources</a></li>
+            <li><a href="#about" class="active">About</a></li>
+        </ul>
+
         <div>
             <h1>YOUTH FOR ABOLITION</h1>
             <h2><em>"Hope is a discipline" - Mariame Kaba</em></h2>
         </div>
 
-        <div class="flex-container">
-            <div class="box">
-                <p style="font-size:18px;">
-                    <em>What is abolition?</em>
-                </p>
-                <p style="font-size: 15px">
-                    <br>Abolition is the eradication of the prison-industrial complex 
-                    and other structures of violence that disproportionately target
-                    people of color. Abolition seeks to create a new world through 
-                    restorative and transformative justice practices.
-                </p>
-            </div>
-            <div class="box">
-                <p style="font-size:18px;"> 
-                    <em>Why abolition? The system isn't broken!</em>
-                </p>
-                <p style="font-size:15px">
-                    <br>The current structure of society maintains systemic issues, such as racism and sexism, 
-                    that marginalize certain groups of people and uphold white, patriarchal values. 
-                    Due to the inherent structures of institutions, they must be eradicated and new 
-                    systems must be built. The system is not broken because that implies that it had at one point worked 
-                    the system has never worked and therefore must end.
-                </p>
-            </div>
-            <div class="box">
-                <p style="font-family:18px;">
-                    <em>How to get involved?</em>
-                </p>
-                <p style="font-size:15px">
-                    <br>Abolitionists do not have uniform ideas on how to eradicate the current system. 
-                    They focus their energy on efforts that they believe are most effective or address a 
-                    specific aspect of society. For example, the NIA works to end the incarceration of 
-                    children and young adults.
-                </p>
-            </div>
-        </div>
+        <div1>
+            <h3><em>What is abolition?</em></h3>
+            <p>
+                <br>Abolition is the eradication of the prison-industrial complex 
+                and other structures of violence that disproportionately target
+                people of color. Abolition seeks to create a new world through 
+                restorative and transformative justice practices.
+            </p>
+        </div1>
     </body>
 </html>
