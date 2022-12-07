@@ -49,6 +49,31 @@
                 display: table;
             }
 
+            /* button */
+            .button {
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 22px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button1 {
+                background-color: white;
+                color: darkmagenta;
+            }
+
+            .button1:hover {
+                background-color: rgb(219, 219, 219);
+                color: darkmagenta
+            }
+
             /* text */
             h1{text-align: center;
                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -58,9 +83,14 @@
                 font-family: cursive;
                 font-size: 20px;}
 
-            h3{text-align: center}
-            h3{font-family: Arial, Helvetica, sans-serif}
-            h3{font-size: 22px}
+            h3{text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                font-size: 22px}
+
+            h4{text-align: right;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 22px}
 
             p{text-align: left}
             p{font-family: Arial, Helvetica, sans-serif}
@@ -80,12 +110,11 @@
         <div>
             <h1 style="color:darkmagenta">YOUTH FOR ABOLITION</h1>
             <h2><em>"Hope is a discipline" - Mariame Kaba</em></h2>
-            <br>
-            <br>
+            <img src="Graffiti_Abolish_Police.jpeg" alt="Graffiti for police abolition">
         </div>
 
         <div class="clearfix">
-            <div class="box" style="background-color: lavender">
+            <div class="box" style="background-color: darkmagenta">
                 <h3>What is abolition?</h3>
                 <p>
                     Abolition is the eradication of the prison-industrial complex 
@@ -95,7 +124,7 @@
                 </p>
             </div>
             <div class="box" style="background-color: rgb(217, 217, 252)">
-                <h3>Why abolition? The system is not broken!</h3>
+                <h4>Why abolition? The system is not broken!</h4>
                 <p>
                     The current structure of society maintains systemic issues, such as 
                     racism and sexism, that marginalize certain groups of people and 
@@ -105,13 +134,10 @@
                     worked-- the system has never worked and therefore must end. Reforms are not enough.
                 </p>
             </div>
-            <div class="box" style="background-color: lavender">
-                <h3>What can I do as a youth abolitionist?</h3>
-                <p>
-                    Abolitionists do not have uniform ideas on how to eradicate the current system. 
-                    They focus their energy on efforts that they believe are most effective or address 
-                    a specific aspect of society. Youth abolitionists can get involved through various actions. 
-                </p>
+            <div class="box" style="background-color: darkmagenta">\
+                <h3><b>What can I do as a youth abolitionist?</b></h3>
+                <p>Check out the various ways to get involved here.</p>
+                <button class="button button1">GET INVOLVED</button>
             </div>
         </div>
 
