@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youth for Abolition</title>
+        <style>
+            body {background-color: white;}
+
+            /* navigation bar */
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: darkmagenta;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: inline-block;
+                color: white;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: rgb(63, 0, 63);
+            }
+
+            .active {
+                background-color: darkmagenta;
+            }
+
+            /* textbox */
+            * {box-sizing: border-box;}
+
+            .box {
+                float: left;
+                width: 100%;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            /* button */
+            .button {
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 18px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+            }
+
+            .button1 {
+                background-color: white;
+                color: rgb(52, 52, 101);
+            }
+
+            .button1:hover {
+                background-color: rgb(219, 219, 219);
+                color: rgb(52, 52, 101);
+            }
+
+            /* text */
+            h1{text-align: center;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 65px;}
+
+            h2{font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: black;
+                font-size: 22px}
+
+            h3{font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color:white;
+                font-size: 22px}
+
+            p{font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 18px}
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="https://cvenen.github.io/youth-for-abolition/" class="active">HOME</a></li>
+            <li><a href="learn.html" class="active">LEARN</a></li>
+            <li><a href="get_involved.html" class="active">GET INVOLVED</a></li>
+            <li><a href="resources.html" class="active">RESOURCES</a></li>
+            <li><a href="about.html" class="active">ABOUT</a></li>
+        </ul>
+
+        <div>
+            <h1>YOUTH FOR ABOLITION</h1>
+            <img src="imgs/Graffiti_Abolish_Police.jpeg" alt="Graffiti for police abolition" width="100%" height="auto">
+            <p style="font-size: 9px; color: black"><em>
+                Source: <a href="https://commons.wikimedia.org/wiki/File:Graffiti_Abolish_the_police,_George_Floyd_protest,_Minneapolis,_MN,_June,_2020.jpg"
+                style="color:black; text-decoration:none">
+                    Wikimedia Commons
+                </a></em>
+            </p>
+        </div>
+
+        <div class="clearfix">
+            <div class="box" style="background-color: rgb(217, 217, 252)">
+                <h2 style="text-align:left; margin-left: 20px">What is abolition?</h2>
+                <p style="text-align:left; margin-left: 20px; color:black">
+                    Abolition is the eradication of the prison-industrial complex 
+                    and other structures of violence that disproportionately target
+                    people of color. Abolition seeks to create a new world through 
+                    restorative and transformative justice practices.
+                </p>
+            </div>
+            <div class="box" style="background-color: darkmagenta">
+                <h3 style="text-align:right; margin-right: 20px">Why abolition? The system is not broken!</h3>
+                <p style="text-align:right; margin-right: 20px; color:white">
+                    Social and political institutions maintain racist and sexist systems 
+                    that uphold white, patriarchal values and marginalize certain groups of people. 
+                    Since the inherent structure of these institutions is flawed,
+                    they must be abolished and new systems must be built. 
+                    We can't say the system is broken because that implies it had worked at some point-- 
+                    the system has never worked and therefore must end. Reforms are not enough.
+                </p>
+            </div>
+            <div class="box" style="background-color: rgb(52, 52, 101)">
+                <div class="clearfix">
+                    <a href="get_involved.html" class="button button1" style="float: right; margin: 20px"><b>GET INVOLVED</b></a>
+                    <h3 style="text-align:left; margin-left: 20px">What can I do as a youth abolitionist?</h3>
+                    <p style="text-align:left; margin-left: 20px; color:white">
+                        Check out the various ways to get involved here.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
